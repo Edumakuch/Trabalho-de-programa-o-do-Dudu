@@ -1,0 +1,105 @@
+/* Configurações Gerais da Página */
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho do Site */
+header {
+    background-color: #000000;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 4px solid #b30000;
+}
+
+header h1 {
+    color: #b30000;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+.subtitle {
+    color: #888888;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* Container da Linha do Tempo */
+.timeline {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Cartão de Cada Jogo */
+.game-card {
+    background-color: #1a1a1a;
+    border-left: 5px solid #b30000;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.game-card h2 {
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.game-card .year {
+    color: #b30000;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.game-card p {
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+/* Estilo do Botão de Trailer */
+.trailer-btn {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #b30000;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Efeito ao passar o mouse */
+.trailer-btn:hover {
+    background-color: #b30000;
+    box-shadow: 0 0 10px #b30000;
+}
+
+/* Container para alinhar e dar espaço aos vídeos */
+.video-container {
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid #333;
+    background-color: #000;
+    line-height: 0;
+}
+
+.video-container iframe {
+    max-width: 100%;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #555555;
+    font-size: 0.8rem;
+    border-top: 1px solid #1a1a1a;
+}
